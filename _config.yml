@@ -115,6 +115,8 @@ ignore: []
 ## Plugins: https://hexo.io/plugins/ # [插件：https://hexo.io/plugins/]
 ## Themes: https://hexo.io/themes/ # [主题：https://hexo.io/themes/]
 theme: next
+# theme: butterfly
+# theme: redefine
 
 # Deployment # [部署]
 ## Docs: https://hexo.io/docs/one-command-deployment # [文档：https://hexo.io/docs/one-command-deployment]

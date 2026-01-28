@@ -52,8 +52,10 @@
     "hexo-tag-qrcode": "^1.0.0",
     "hexo-tag-share-post": "^0.0.1",
     "hexo-tag-tweetable-quote": "^1.0.2",
+    "hexo-theme-butterfly": "^5.5.4",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-next": "^8.26.0",
+    "hexo-theme-redefine": "^2.8.5",
     "hexo-word-counter": "^0.2.1",
     "micromatch": "^4.0.8"
   }

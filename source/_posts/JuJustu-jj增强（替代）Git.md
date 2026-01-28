@@ -47,7 +47,7 @@ Martin 希望结合 Git 的强大生态（GitHub/GitLab 兼容性）与 Mercuria
 
 你不需要频繁 git add。当你修改文件时，jj 实际上是在更新这个“当前提交”。当你准备好时，你只是“完成”它并开始一个新的。
 
-## 冲突是一等公民 (Conflicts as First-Class Objects)：
+## 冲突是一等公民 (Conflicts as First-Class Objects)
 
 这是 jj 最酷的功能之一。如果合并产生冲突，你可以成功提交包含冲突的代码。 而不需要立刻解决冲突才能继续工作。冲突标记被作为文件内容的一部分存储下来，可以在以后任何时候再去解决。
 
