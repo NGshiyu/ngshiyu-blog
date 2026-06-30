@@ -18,8 +18,8 @@ i18n:
 
 # URL # [网址设置]
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project' # [在此设置您的网站URL。例如，如果您使用GitHub Page，请将url设置为'https://username.github.io/project']
-url: https://NGshiyu.github.io/ngshiyu-blog
-root: /ngshiyu-blog/
+url: https://ngshiyu.github.io/blog
+root: /blog/
 permalink: :hash/
 permalink_defaults: :hash/
 pretty_urls:
