@@ -13,7 +13,7 @@ date: 2025-12-19 13:47:42
 ---
 {% githubrepo 'jj-vcs/jj' %}
 
-{% githubrepo 'NGshiyu/ngshiyu-blog' %}
+{% githubrepo 'NGshiyu/blog' %}
 
 # [Jujustu 简介](https://docs.jj-vcs.dev/latest/tutorial/)
 
@@ -66,8 +66,8 @@ brew install jj
 ### jj git clone （重新初始化一个仓库）
 
 ```shell
-❯ jj git clone git@github.com:NGshiyu/ngshiyu-blog.git
-Fetching into new repo in ".../ngshiyu-blog"
+❯ jj git clone git@github.com:NGshiyu/blog.git
+Fetching into new repo in ".../blog"
 remote: Enumerating objects: 958, done.
 remote: Total 958 (delta 213), reused 185 (delta 165), pack-reused 706 (from 1)
 bookmark: dependabot/npm_and_yarn/node-forge-1.3.2@origin [new] untracked
@@ -171,8 +171,8 @@ Modified regular file source/_posts/JuJustu-jj增强（替代）Git.md:
        66: ### jj git clone
        67: 
        68: ```shell
-       69: ❯ jj git clone git@github.com:NGshiyu/ngshiyu-blog.git
-       70: Fetching into new repo in ".../ngshiyu-blog"
+       69: ❯ jj git clone git@github.com:NGshiyu/blog.git
+       70: Fetching into new repo in ".../blog"
        71: remote: Enumerating objects: 958, done.
        72: remote: Total 958 (delta 213), reused 185 (delta 165), pack-reused 706 (from 1)
        73: bookmark: dependabot/npm_and_yarn/node-forge-1.3.2@origin [new] untracked
