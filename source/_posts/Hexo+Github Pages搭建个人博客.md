@@ -10,7 +10,7 @@ tags:
   - Blog
   - GitHub Pages
 ---
-{% githubrepo 'NGshiyu/ngshiyu-blog' %}
+{% githubrepo 'NGshiyu/blog' %}
 
 # 写在最前
 
@@ -179,7 +179,7 @@ next主题支持多种安装方式，我使用最便捷的方式安装 `npm inst
 
 ## 配置
 
-将next主题的配置文件迁移到主目录，方便做个性化配置，原始文档的注释也很齐全，英文不好得可以让大模型做一次翻译或者直接参考我的[配置文档](https://github.com/NGshiyu/ngshiyu-blog/blob/main/_config.next.yml)
+将next主题的配置文件迁移到主目录，方便做个性化配置，原始文档的注释也很齐全，英文不好的话可以让大模型做一次翻译或者直接参考我的[配置文档](https://github.com/NGshiyu/blog/blob/main/_config.next.yml)
 
 ```shell
 cp node_modules/hexo-theme-next/_config.yml _config.next.yml

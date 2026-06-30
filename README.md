@@ -1,4 +1,4 @@
-# [拾瑜 Blog](https://NGshiyu.github.io/)
+# [拾瑜 Blog](https://ngshiyu.github.io/blog/)
 
 这是博客的源数据仓库，所有的产出用于部署到GitHub Pages，生成博客。
 
@@ -21,7 +21,7 @@
 
 ## 部署目标仓库
 
-[ngshiyu-blog](https://github.com/NGshiyu/ngshiyu-blog)
+[blog](https://github.com/NGshiyu/blog)
 
 ## 结构划分
 
