@@ -89,7 +89,7 @@ comments: false
 
 [//]: # (- **邮箱**: your-email@example.com)
 
-[//]: # (- **博客**: [忆秉拾瑜]&#40;https://ngshiyu-blog&#41;)
+[//]: # (- **博客**: [忆秉拾瑜]&#40;https://NGshiyu.github.io&#41;)
 
 [//]: # ()
 [//]: # (## 开源项目 🚀)
