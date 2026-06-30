@@ -43,12 +43,15 @@ tags:
 # 搭建博客
 
 ## 准备Github仓库
+
 - 添加一个GitHub的仓库，命名为xx.github.io，添加README.md
 - 为了本地的结构清晰，环境干净，这里仓库直接留空
 
 ## 安装Hexo
+
 - 创建本地的Hexo工作空间文件夹 `~/Hexo`
 - 执行Hexo的安装命令
+
 ```shell
 npm install -g hexo-cli # 全局安装
 npm install hexo # 非全局安装
@@ -56,12 +59,15 @@ hexo init <folder> # 此处的名称和你的仓库名称保持相同
 cd <folder> # 后续所有的操作均在次目录内完成，不会再返回上层目录了
 npm install
 ```
+
 执行完成这几步你的仓库Hexo就搭建好了，这里的小巧思是这样我就可以使用任意的编辑器（如WebStorm、VsCode）把我的GitHub上的博客项目当作一个工程打开，
 对于我来说比较干净清晰，接下来只需要关联GitHub代码仓库和你的Hexo工程，使用仓库的提示处理，将本地工程推送到GitHub即可
 
 ## GitHub Actions + GitHub Pages 自动化部署
-- 添加 `.github/workflows/hexo.yml` 
+
+- 添加 `.github/workflows/hexo.yml`
 - 添加如下脚本内容
+
 ```yaml
 # Sample workflow for building and deploying a Hexo site to GitHub Pages
 name: Deploy Hexo site to Pages
@@ -158,9 +164,11 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 ```
+
 - 这一步完成你的博客已经搭建好，可以投入使用了
 
 # 个性化配置
+
 > Hexo 相关的主题有非常多，大家可以自行浏览[Jekyll Themes](http://jekyllthemes.org/)，找自己喜欢的使用，我本人使用的是[hexo-theme-next](https://github.com/next-theme/hexo-theme-next)
 
 ## 下载主题
@@ -193,10 +201,10 @@ export NODE_ENV=development
 
 使用 `direnv allow` 加载变量，
 
-> Tips: <font color="red"> `direnv` 并不支持局部 `alias` 配置</font>，所以需要下面的工具
+> Tips: <font color="red">  并不支持局部  配置</font>，所以需要下面的工具
 
 ## [Just](https://github.com/casey/just)
- 
+
 使用 just 工具优化本地处理的流程，简化局部安装 Hexo 过于繁琐的命令，在项目内配置 `Justfile` 如：
 
 ```shell
