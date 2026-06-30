@@ -1,0 +1,4 @@
+allowBuilds:
+  fsevents: true
+  hexo-util: true
+  hexo-word-counter: true
