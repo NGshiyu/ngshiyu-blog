@@ -216,10 +216,10 @@ mathjax:
 
 # Word Counter [https://github.com/next-theme/hexo-word-counter]
 symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
+  symbols: false
+  time: false
+  total_symbols: false
+  total_time: false
   exclude_codeblock: false
   wpm: 275
   suffix: "mins."
