@@ -323,8 +323,8 @@ related_posts:
 # Easily browse and edit blog source code online. # [轻松在线浏览和编辑博客源代码]
 post_edit:
   enable: true
-  #  url: https://github.com/NGshiyu/NGshiyu.github.io/tree/main/source/ # Link for view source # [查看源代码的链接]
-  url: https://github.com/NGshiyu/NGshiyu.github.io/edit/main/source/ # Link for view source # [查看源代码的链接]
+  #  url: https://github.com/NGshiyu/ngshiyu-blog/tree/main/source/ # Link for view source # [查看源代码的链接]
+  url: https://github.com/NGshiyu/ngshiyu-blog/edit/main/source/ # Link for view source # [查看源代码的链接]
 #  url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit # [Fork和编辑的链接]
 
 # Show previous post and next post in post footer if exists # [如果存在，在文章页脚显示上一篇文章和下一篇文章]
@@ -743,14 +743,14 @@ livere_uid: # <your_uid>
 gitalk:
   enable: false  # 请在本地或 CI/CD 中启用
   github_id: 'NGshiyu' # GitHub repo owner # [GitHub仓库所有者]
-  repo: 'NGshiyu.github.io' # Repository name to store issues # [存储问题的仓库名称]
+  repo: 'ngshiyu-blog' # Repository name to store issues # [存储问题的仓库名称]
   # 请填入你的 GitHub Application Client ID # [GitHub应用程序客户端ID]
   client_id: ${env.GITALK_GITHUB_CLIENT_ID}
   # 请填入你的 GitHub Application Client Secret # [GitHub应用程序客户端密钥]
   client_secret: ${env.GITALK_GITHUB_CLIENT_SECRET}
   admin_user: 'NGshiyu' # GitHub repo owner and collaborators, only these guys can initialize gitHub issues # [GitHub仓库所有者和协作者，只有这些人可以初始化GitHub问题]
   distraction_free_mode: true # Facebook-like distraction free mode # [类似Facebook的无干扰模式]
-  redirect_uri: https://ngshiyu.github.io/
+  redirect_uri: https://ngshiyu-blog/
   # When the official proxy is not available, you can change it to your own proxy address # [当官方代理不可用时，您可以将其更改为自己的代理地址]
   proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy address # [这是官方代理地址]
   # Gitalk's display language depends on user's browser or system environment # [Gitalk的显示语言取决于用户的浏览器或系统环境]
@@ -764,7 +764,7 @@ giscus:
   # 是否显示加载动画
   loading: lazy
   # GitHub 仓库，格式为 username/repo-name
-  repo: NGshiyu/NGshiyu.github.io
+  repo: NGshiyu/ngshiyu-blog
   # GitHub 仓库的唯一ID
   repo_id: ${env.GISCUS_REPO_ID}
   # GitHub Discussions 分类名称
