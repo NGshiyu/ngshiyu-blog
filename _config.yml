@@ -123,7 +123,7 @@ theme: next
 ## 禁用部署到git，避免仓库被污染
 #deploy:
 #  type: 'git'
-#  repo: git@github.com:NGshiyu/NGshiyu.github.io.git
+#  repo: git@github.com:NGshiyu/ngshiyu-blog.git
 #  branch: main
 
 fireworks:
